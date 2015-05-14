@@ -52,3 +52,6 @@ rm -rf public/_styles \
 echo "╔═══════════════════════════════════════════╗"
 echo "║          Watching for changes...          ║"
 echo "╚═══════════════════════════════════════════╝"
+
+# compile sass to css
+ ./node_modules/.bin/node-sass \
