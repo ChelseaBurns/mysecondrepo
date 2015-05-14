@@ -1,0 +1,16 @@
+{
+  "name": "my-movie-database",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    jade: "./node_modules/.bin/jade ./*.jade./**/*.jade",
+    sass: "./node_modules/.bin/node-sass main.scss main.css"
+    build: "npm run jade; npm run sass",
+    server: ".node_modules/.bin/hs -a localhost -o",
+    start:"npm run build; npm run server"
+  },
+  "author": " <Chelsea Burns <co.designux@gmail.com>",
+  "license": "\"MIT\"",
+  "description": ""
+}
